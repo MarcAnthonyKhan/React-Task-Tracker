@@ -1,0 +1,22 @@
+Create React App/folder:
+$> npx create-react-app 'name of the app'
+
+Start development build:
+$> npm Start
+
+Make components:
+    1. Create new file/folder for component(s)
+    2. 'rafce': template for a react component
+    3. Structure component as required by specs
+
+
+To run a mock backend with json-server:
+1. Install json-server
+    $> npm i json-server
+2. Add script to 'package.json' file
+    -i.e. "server": "json-server --watch db.json (db.json name of database) --port 5000"
+3. Run server; this will create the database file
+    $> npm run server
+
+To run a production build:
+$> npm run build

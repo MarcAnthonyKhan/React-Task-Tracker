@@ -1,0 +1,27 @@
+React is a library for building UI
+
+referred to as a front-end 'framework' similar to Angular or Vue
+
+Why React?
+-Structure the view layer of the app
+-Reusuable components with their own state
+-JSX (JavaScript Syntax Entension): Dynamic markup
+-Interactive UIs with Vitual DOM
+-Performance and testing benefits
+-Popular in industry right now (2022)
+
+Working with State:
+-Components can have 'state' which is an object that determines how a component renders and behaves
+    -i.e. collapsable menu which has open and closed 'states'
+-Data is part of a particular state but sometimes needs to be shared between components
+    -'App' or 'global' state refers to state that is available to the entire UI, not just a single component
+
+Note: Prior to React 16.8, you couldn't use function components with 'hooks' because they couldn't hold state, therefore classes were used
+
+React Hooks are functions that let us 'hook' into the React state and lifecycle features from function components
+-'useState': returns a stateful value and a function to update into; IMMUTABLE, use function to reproduce new state
+-'useEffect': perform side effects in function components
+-'useContext, useReducer, useRef': beyond scope of crash course by Traversy Media
+
+Note: can create your own custom Hooks
+
